@@ -39,6 +39,7 @@ body {
     display: flex;
 }
 
+h1,
 h2 {
     color: hsl(0, 0%, 95%);
     margin: 1.8rem 0;
