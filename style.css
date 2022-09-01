@@ -19,7 +19,7 @@ body {
 }
 
 /* Main */
-main {
+.wrapper {
     width: 1440px;
     height: 800px;
     display: flex;
@@ -107,7 +107,7 @@ a:active {
     }
 
 
-    main {
+    .wrapper {
         height: 100%;
         width: 100%;
     }
