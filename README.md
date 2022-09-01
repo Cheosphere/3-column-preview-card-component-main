@@ -1,11 +1,15 @@
-# Componente de tarjeta de vista previa de 3 columnas
+# Componente de Tarjeta de Vista Previa de 3 Columnas
+
+## _Desafío Frontend Mentor_
 
 El desafío es construir este componente de tarjeta de vista previa de 3 columnas y lograr que se parezca lo más posible al diseño.
 
 - HTML
 - CSS
 
-# Guía de Estilo
+![desktop-design_v2](https://user-images.githubusercontent.com/112582420/187813385-be6026b6-a1d6-4f95-be36-518d64fb1e2f.jpg)
+
+# Guía de Estilos
 
 ## Diseño
 
@@ -18,14 +22,14 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primarios
 
-Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%)
+- Bright orange: hsl(31, 77%, 52%)
+- Dark cyan: hsl(184, 100%, 22%)
+- Very dark cyan: hsl(179, 100%, 13%)
 
 ### Neutros
 
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+- Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+- Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 ## Tipografía
 
