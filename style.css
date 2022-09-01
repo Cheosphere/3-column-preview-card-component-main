@@ -1,0 +1,139 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+}
+
+/* Main */
+main {
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* Contenedor */
+.contenedor {
+    width: 921px;
+    height: 500px;
+    display: flex;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    margin: 1.8rem 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 26px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Estilos columnas */
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 307px;
+    height: 500px;
+    padding: 3rem;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.columna:first-child {
+    border-radius: 8px 0 0 8px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.columna:last-child {
+    border-radius: 0 8px 8px 0;
+    background-color: hsl(179, 100%, 13%);
+}
+
+a {
+    padding: .7rem 1.7rem;
+    border-radius: 2rem;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+}
+
+a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+a:active {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn_1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn_3 {
+    color: hsl(179, 100%, 13%);
+}
+
+/* Media Query */
+@media (max-width: 940px) {
+
+    body {
+        min-height: 1510px;
+    }
+
+
+    main {
+        height: 100%;
+        width: 100%;
+    }
+
+    .contenedor {
+        width: 100%;
+        height: fit-content;
+        padding: 4rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .columna {
+        width: 330px;
+        height: 442px;
+        padding: 2.8rem 3rem;
+    }
+
+    .columna:first-child {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .columna:last-child {
+        border-radius: 0 0 8px 8px;
+    }
+
+}
