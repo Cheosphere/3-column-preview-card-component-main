@@ -30,6 +30,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    transition: all .3s ease-out;
 }
 
 /* Contenedor */
@@ -62,6 +63,7 @@ p {
     height: 500px;
     padding: 3rem;
     background-color: hsl(184, 100%, 22%);
+    transition: all .15s ease-out;
 }
 
 .columna:first-child {
@@ -111,6 +113,7 @@ a:active {
     .wrapper {
         height: 100%;
         width: 100%;
+        transition: all .4s ease-in-out;
     }
 
     .contenedor {
