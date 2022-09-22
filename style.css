@@ -119,15 +119,17 @@ a:active {
     .contenedor {
         width: 100%;
         height: fit-content;
-        padding: 4rem;
+        padding: 0;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
     .columna {
-        width: 330px;
-        height: 442px;
+        width: 90%;
+        max-width: 330px;
+        height: auto;
+        min-height: 442px;
         padding: 2.9rem 3rem;
     }
 
