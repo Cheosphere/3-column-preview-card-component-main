@@ -43,13 +43,14 @@ body {
 h1,
 h2 {
     color: hsl(0, 0%, 95%);
-    margin: 1.73rem 0;
+    margin-top: 1.8rem;
+    margin-bottom: 1.6rem;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 2.5rem;
 }
 
 p {
-    line-height: 24.6px;
+    line-height: 1.55rem;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
